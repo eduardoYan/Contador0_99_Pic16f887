@@ -1,0 +1,59 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"42 C:\Users\bgfjk\Desktop\Teste\Aula8_Contador_0_99.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"65
+[v _DigitoMaisSignificativo DigitoMaisSignificativo `(v  1 e 1 0 ]
+"133
+[v _DigitoMenosSignificativo DigitoMenosSignificativo `(v  1 e 1 0 ]
+"290 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"4133
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"4136
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"4139
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"4142
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"4145
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"4148
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"4151
+[v _RC6 RC6 `VEb  1 e 0 @62 ]
+"4154
+[v _RC7 RC7 `VEb  1 e 0 @63 ]
+"40 C:\Users\bgfjk\Desktop\Teste\Aula8_Contador_0_99.X\newmain.c
+[v _contador1 contador1 `i  1 e 2 0 ]
+[v _contador2 contador2 `i  1 e 2 0 ]
+"42
+[v _main main `(v  1 e 1 0 ]
+{
+"63
+} 0
+"133
+[v _DigitoMenosSignificativo DigitoMenosSignificativo `(v  1 e 1 0 ]
+{
+[v DigitoMenosSignificativo@numero numero `i  1 p 2 0 ]
+"199
+} 0
+"65
+[v _DigitoMaisSignificativo DigitoMaisSignificativo `(v  1 e 1 0 ]
+{
+[v DigitoMaisSignificativo@numero numero `i  1 p 2 0 ]
+"131
+} 0
